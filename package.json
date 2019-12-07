@@ -1,0 +1,31 @@
+{
+  "name": "myip",
+  "version": "1.0.0",
+  "description": "get myip address",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node-dev src/index.ts",
+    "docker": "docker build -f \"Dockerfile\" -t myip .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gyuha/myip.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gyuha/myip/issues"
+  },
+  "homepage": "https://github.com/gyuha/myip#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^12.12.14",
+    "typescript": "^3.7.3"
+  }
+}
