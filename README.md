@@ -3,3 +3,4 @@
 # myip
 get myip address
 
+실행 : https://endpoint.ainize.ai/gyuha/myip/
