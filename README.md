@@ -1,0 +1,2 @@
+# myip
+get myip address
